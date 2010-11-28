@@ -1,0 +1,14 @@
+Experiment/mashup of some openframeworks projects
+
+Top video is broken up into squares based on depth. Contours and blobs are simplified into Box2d lines and deflect boxes. Finger tracking adds attraction points for the boxes to move to.
+
+fairly new to git so apologies if something is missing
+
+hand tracking
+tinyurl.com/​ofhandtracking
+
+ofxBox2d
+code.google.com/​p/​vanderlin/​
+
+ofxKinect
+github.com/​ofTheo/​ofxKinect
