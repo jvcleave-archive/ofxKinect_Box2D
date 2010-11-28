@@ -1,0 +1,30 @@
+<controls>
+    <Toggle_useCalibrated>
+        <name>useCalibrated</name>
+        <value>1</value>
+    </Toggle_useCalibrated>
+    <Toggle_doDrawKinectRGB>
+        <name>doDrawKinectRGB</name>
+        <value>1</value>
+    </Toggle_doDrawKinectRGB>
+    <Toggle_doDrawKinectRGBA>
+        <name>doDrawKinectRGBA</name>
+        <value>0</value>
+    </Toggle_doDrawKinectRGBA>
+    <Toggle_doDrawKinectDepth>
+        <name>doDrawKinectDepth</name>
+        <value>0</value>
+    </Toggle_doDrawKinectDepth>
+    <Toggle_doDrawGrayImage>
+        <name>doDrawGrayImage</name>
+        <value>0</value>
+    </Toggle_doDrawGrayImage>
+    <Toggle_doDrawBox2DCountours>
+        <name>doDrawBox2DCountours</name>
+        <value>1</value>
+    </Toggle_doDrawBox2DCountours>
+    <Toggle_doDrawSimpleContours>
+        <name>doDrawSimpleContours</name>
+        <value>0</value>
+    </Toggle_doDrawSimpleContours>
+</controls>
