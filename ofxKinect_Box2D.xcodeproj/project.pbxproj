@@ -37,8 +37,6 @@
 		0373FF251297AB240065E824 /* ofxSimpleGuiPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0373FF131297AB240065E824 /* ofxSimpleGuiPage.cpp */; };
 		0373FF261297AB240065E824 /* ofxSimpleGuiToo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0373FF151297AB240065E824 /* ofxSimpleGuiToo.cpp */; };
 		0373FF271297AB240065E824 /* ofxSimpleGuiValueControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0373FF171297AB240065E824 /* ofxSimpleGuiValueControl.cpp */; };
-		03958CBD1296492000825DF8 /* shader1.frag in Sources */ = {isa = PBXBuildFile; fileRef = 03958CBA1296492000825DF8 /* shader1.frag */; };
-		03958CBE1296492000825DF8 /* shader1.vert in Sources */ = {isa = PBXBuildFile; fileRef = 03958CBC1296492000825DF8 /* shader1.vert */; };
 		03958CC31296493B00825DF8 /* ofxShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03958CC11296493B00825DF8 /* ofxShader.cpp */; };
 		03A9AFA5129A169900E89109 /* CPUImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03A9AF99129A169900E89109 /* CPUImageFilter.cpp */; };
 		03A9AFA6129A169900E89109 /* ofxCvBlobTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03A9AF9B129A169900E89109 /* ofxCvBlobTracker.cpp */; };
@@ -112,7 +110,7 @@
 		E49DA7BE10CD396F0006B5A8 /* freeimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E49DA7BD10CD396F0006B5A8 /* freeimage.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */; };
-		E4C2422B10CC554B004149E2 /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2421E10CC549C004149E2 /* openFrameworksDebug.a */; };
+		E4C2422B10CC554B004149E2 /* openFrameworks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2421E10CC549C004149E2 /* openFrameworks.a */; };
 		E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424410CC5A17004149E2 /* AppKit.framework */; };
 		E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
 		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
@@ -232,9 +230,6 @@
 		0373FF161297AB240065E824 /* ofxSimpleGuiToo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSimpleGuiToo.h; sourceTree = "<group>"; };
 		0373FF171297AB240065E824 /* ofxSimpleGuiValueControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSimpleGuiValueControl.cpp; sourceTree = "<group>"; };
 		0373FF181297AB240065E824 /* ofxSimpleGuiValueControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSimpleGuiValueControl.h; sourceTree = "<group>"; };
-		03958CBA1296492000825DF8 /* shader1.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader1.frag; sourceTree = "<group>"; };
-		03958CBB1296492000825DF8 /* shader1.geom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shader1.geom; sourceTree = "<group>"; };
-		03958CBC1296492000825DF8 /* shader1.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader1.vert; sourceTree = "<group>"; };
 		03958CC11296493B00825DF8 /* ofxShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxShader.cpp; sourceTree = "<group>"; };
 		03958CC21296493B00825DF8 /* ofxShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxShader.h; sourceTree = "<group>"; };
 		03A9AF99129A169900E89109 /* CPUImageFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPUImageFilter.cpp; sourceTree = "<group>"; };
@@ -465,7 +460,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C2422B10CC554B004149E2 /* openFrameworksDebug.a in Frameworks */,
+				E4C2422B10CC554B004149E2 /* openFrameworks.a in Frameworks */,
 				E45BE0AA0E8CC67C009D7055 /* GLee.a in Frameworks */,
 				E45BE2E40E8CC69C009D7055 /* rtAudio.a in Frameworks */,
 				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
@@ -699,17 +694,6 @@
 			);
 			path = Controls;
 			sourceTree = "<group>";
-		};
-		03958CB91296492000825DF8 /* shaders */ = {
-			isa = PBXGroup;
-			children = (
-				03958CBA1296492000825DF8 /* shader1.frag */,
-				03958CBB1296492000825DF8 /* shader1.geom */,
-				03958CBC1296492000825DF8 /* shader1.vert */,
-			);
-			name = shaders;
-			path = bin/data/shaders;
-			sourceTree = SOURCE_ROOT;
 		};
 		03958CBF1296493B00825DF8 /* ofxShader */ = {
 			isa = PBXGroup;
@@ -1379,7 +1363,6 @@
 			isa = PBXGroup;
 			children = (
 				037300DD1299BD4B0065E824 /* glview.c */,
-				03958CB91296492000825DF8 /* shaders */,
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
@@ -1390,7 +1373,7 @@
 		E4C2421710CC549C004149E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4C2421E10CC549C004149E2 /* openFrameworksDebug.a */,
+				E4C2421E10CC549C004149E2 /* openFrameworks.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1546,10 +1529,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E4C2421E10CC549C004149E2 /* openFrameworksDebug.a */ = {
+		E4C2421E10CC549C004149E2 /* openFrameworks.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = openFrameworksDebug.a;
+			path = openFrameworks.a;
 			remoteRef = E4C2421D10CC549C004149E2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1588,8 +1571,6 @@
 				E4F056081293A22200BAAF7C /* ofxMatrix3x3.cpp in Sources */,
 				E4F056091293A22200BAAF7C /* ofxMatrix4x4.cpp in Sources */,
 				E4F0560A1293A22200BAAF7C /* ofxQuaternion.cpp in Sources */,
-				03958CBD1296492000825DF8 /* shader1.frag in Sources */,
-				03958CBE1296492000825DF8 /* shader1.vert in Sources */,
 				03958CC31296493B00825DF8 /* ofxShader.cpp in Sources */,
 				0373FE9E1297A72D0065E824 /* tinyxml.cpp in Sources */,
 				0373FE9F1297A72D0065E824 /* tinyxmlerror.cpp in Sources */,

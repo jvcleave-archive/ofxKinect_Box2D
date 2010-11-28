@@ -7,7 +7,6 @@
 #include "ofxKinect.h"
 #include "ofxSimpleGuiToo.h"
 #include "ofxBox2d.h"
-#include "ofxShader.h"
 #include "ofxFingerDetector.h"
 #include "contourSimplify.h"
 
@@ -62,8 +61,6 @@ class testApp : public ofBaseApp
 		unsigned char * getKinectRGBPixels();
 		ofxKinect kinect;
     
-		ofxShader shader;
-
 		ofImage grayOfImage;
 		ofImage kinectRawImage;
 		ofImage kinectRGBA;
